@@ -1,0 +1,40 @@
+#produkt .li {
+  display: none;
+}
+.slick-dots,
+#quicklink_inhalt,
+#nl_top_container,
+#header_outer,
+.backlink,
+#footernavi {
+  display: none !important;
+}
+#footer #adresse {
+  color: black;
+}
+#footer #adresse a {
+  color: black;
+}
+#header,
+#mainmenu,
+.bild_full,
+#footer,
+#helpcenter,
+#submenu,
+.print,
+.back {
+  display: none;
+}
+#obj_detail .row .desc {
+  width: 200px;
+}
+#vermietung_detail #map_container {
+  height: 400px !important;
+  page-break-after: always !important;
+}
+.hiddenprint {
+  display: block !important;
+}
+.slider_nav .preview {
+  display: none !important;
+}

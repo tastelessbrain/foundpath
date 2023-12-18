@@ -1,0 +1,71 @@
+#content a.pdf { /*The background image*/
+  background: url(../../pics/icons/pdf.html) no-repeat left center;
+  padding-left: 20px;
+  padding-top: 3px;
+  line-height:20px; /* To center the text vertically with the icon */
+}
+
+#content a.txt { /*The background image*/
+  background: url(../../pics/icons/word.html) no-repeat left center;
+  padding-left: 20px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+
+#content a.xls { /*The background image*/
+  background: url(../../pics/icons/excel.html) no-repeat left center;
+  padding-left: 20px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+
+#content a.bild { /*The background image*/
+  background: url(../../pics/icons/picture.html) no-repeat left center;
+  padding-left: 20px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+
+#content a.zip { /*The background image*/
+  background: url(../../pics/icons/zip.html) no-repeat left center;
+  padding-left: 20px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+
+#content a.email {
+  background: url(../../pics/icons/email.html) no-repeat left center;
+  padding-left: 20px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+
+#content a.external {
+  background: url(../../pics/icons/external.html) no-repeat left center;
+  padding-left: 18px;
+  line-height: 18px;
+  padding-top: 3px;
+
+}
+
+#content a.internal{
+  background: url(../../pics/icons/external.html) no-repeat left center;
+  padding-left: 12px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+
+#content a.calendar{
+  background: url(../../pics/icons/calendar_16x16.html) no-repeat left center;
+  padding-left: 18px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+
+#content a.c_select{
+  background: url(../../pics/icons/arrow_down.html) no-repeat left center;
+  padding-left: 14px;
+  line-height: 16px;
+  padding-top: 3px;
+}
+

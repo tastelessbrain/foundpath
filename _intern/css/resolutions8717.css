@@ -1,0 +1,412 @@
+/*rot*/
+.button {
+  padding: 10px 20px;
+  background-color: #c4182a;
+  background-image: -webkit-linear-gradient(top, #c4182a, #fbe0e3);
+  background-image: -moz-linear-gradient(top, #c4182a, #fbe0e3);
+  background-image: -o-linear-gradient(top, #c4182a, #fbe0e3);
+  background-image: -ms-linear-gradient(top, #c4182a, #fbe0e3);
+  background-image: linear-gradient(top, #c4182a, #fbe0e3);
+  /*fucking IE9 hat Pech gehabt*/
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 0px #777;
+}
+.button:hover {
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.schwarzweiss {
+  filter: grayscale(40%);
+  -webkit-filter: grayscale(40%);
+  -moz-filter: grayscale(40%);
+  -ms-filter: grayscale(40%);
+  -o-filter: grayscale(40%);
+  filter: url(../pics/desaturate.html#greyscale);
+  filter: gray;
+  -webkit-filter: grayscale(0.4);
+}
+.bunt {
+  filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+/* --- 1480px --------------------------------------------- */
+@media only screen and (max-width: 1480px) {
+  .inner {
+    padding: 0 10px;
+    width: 92%;
+  }
+  .zweispalten .re,
+  .dreispalten .re {
+    float: none;
+  }
+  .zweispalten .item,
+  .dreispalten .item {
+    width: 45%;
+  }
+  .zweispalten .item .bild,
+  .dreispalten .item .bild {
+    width: 50%;
+  }
+  .zweispalten .item .text,
+  .dreispalten .item .text {
+    width: 40%;
+  }
+  .zweispalten .item img,
+  .dreispalten .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  #mitarbeiter .abteilung .item {
+    /*
+				&:nth-of-type(3n+1)
+				{
+				margin-right:25px;
+			}
+				&:nth-of-type(2n+1)
+				{
+				margin-right:0;
+			}
+				*/
+  }
+  #nav a {
+    padding: 3px 10px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1330px) {
+  #nav {
+    margin-left: 160px;
+  }
+}
+/* --- 1120px --------------------------------------------- */
+@media only screen and (max-width: 1120px) {
+  body {
+    font-size: 18px;
+  }
+  #header #header_slider {
+    height: auto;
+    width: 98%;
+  }
+  #mitarbeiter .abteilung .item {
+    width: 90%;
+  }
+  .video_ct .item {
+    width: 100%;
+    margin-right: 0;
+  }
+  #fam_aktuell .item {
+    width: 45%;
+  }
+  #formular.whg_bewerbung {
+    width: 60%;
+  }
+  .inner.formtext {
+    width: 60%;
+  }
+}
+/* --- 1024px --------------------------------------------- */
+/* --- 980px --------------------------------------------- */
+@media only screen and (max-width: 979px) {
+  #burgerbutton {
+    display: block;
+    z-index: 3;
+  }
+  #to_desktop {
+    display: block;
+  }
+  #mainmenu,
+  #submenu {
+    display: none;
+  }
+  #header #logo_outer {
+    padding-bottom: 20px;
+  }
+  #header #logo_outer #logo {
+    display: none;
+  }
+  #header #logo_outer #logo_mobil,
+  #header #logo_outer #logo_mobil_svg {
+    display: block;
+    padding-top: 8px;
+    width: 160px;
+  }
+  #header #logo_outer #logo_mobil img,
+  #header #logo_outer #logo_mobil_svg img {
+    max-width: 66%;
+    height: auto;
+  }
+  #header #logo_outer #logo_mobil_svg img {
+    max-width: 45%;
+    margin-top: 10px;
+  }
+  #header #header_text {
+    width: 70%;
+    transform: initial;
+  }
+  #header #header_text span {
+    font-size: 30px;
+    line-height: 55px;
+  }
+  #header #vw_outer .vw {
+    width: 60px;
+    bottom: 0;
+  }
+  #header #kauflokal_outer .kauflokal {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 100px;
+  }
+  #helpcenter {
+    top: 215px;
+  }
+  #helpcenter #helpcenter_close {
+    width: 35px;
+    height: 35px;
+    font-size: 31px;
+  }
+  .bl_2_3,
+  .bl_1_3 {
+    width: 90%;
+    float: none;
+    margin: 0 auto 20px auto;
+  }
+  .bl_2_3:nth-of-type(3n+0),
+  .bl_1_3:nth-of-type(3n+0) {
+    margin-right: auto;
+  }
+  #re_ct {
+    width: 90%;
+    float: none;
+  }
+  #re_ct #news,
+  #re_ct #sprechzeiten {
+    width: 100%;
+  }
+  #footer {
+    font-size: 14px;
+  }
+  #footer h3 {
+    margin-bottom: 0;
+  }
+  #footer .copy {
+    margin-top: 30px;
+  }
+  #sprechzeiten {
+    float: none;
+    margin: 20px auto 0 auto;
+  }
+  .zweispalten .li,
+  .dreispalten .li,
+  .zweispalten .re,
+  .dreispalten .re {
+    width: 100%;
+  }
+  .zweispalten .li .item,
+  .dreispalten .li .item,
+  .zweispalten .re .item,
+  .dreispalten .re .item {
+    margin: 0 auto 75px auto;
+  }
+  .zweispalten .item,
+  .dreispalten .item {
+    float: none;
+    margin: 0 auto 75px auto;
+  }
+  .zweispalten .item .bild,
+  .dreispalten .item .bild,
+  .zweispalten .item .text,
+  .dreispalten .item .text {
+    width: 100%;
+    margin-left: 0;
+  }
+  .zweispalten .item.lastrow,
+  .dreispalten .item.lastrow {
+    margin-bottom: 75px;
+  }
+  .zweispalten .item:nth-of-type(2n+0),
+  .dreispalten .item:nth-of-type(2n+0) {
+    margin-right: auto;
+  }
+  .zweispalten .item h2,
+  .dreispalten .item h2 {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+  }
+  .zweispalten .item h3,
+  .dreispalten .item h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  #content img {
+    max-width: 100%;
+    height: auto;
+  }
+  #maincontent {
+    padding: inherit;
+    width: 98%;
+    float: none;
+  }
+  h2 {
+    font-size: 16px;
+  }
+}
+/* --- 768px --------------------------------------------- */
+@media only screen and (max-width: 767px) {
+  #vermietung_detail .row .desc {
+    width: 130px;
+  }
+  #vermietung_detail .row .val {
+    width: 158px;
+  }
+  #vermietung_detail .asp {
+    margin-right: 0;
+    padding-right: 5px;
+  }
+  #header .vw {
+    right: 10px;
+  }
+  #header .vw img {
+    width: 100px;
+  }
+  #header #kauflokal_outer .kauflokal {
+    width: 60px;
+  }
+  #formular.whg_bewerbung {
+    width: 80%;
+  }
+  .inner.formtext {
+    width: 80%;
+  }
+}
+/* --- 580px --------------------------------------------- */
+@media only screen and (max-width: 584px) {
+  .zweispalten .item,
+  .dreispalten .item {
+    width: 100%;
+    float: none;
+    margin: 0 auto 75px auto;
+  }
+  .zweispalten .item img,
+  .dreispalten .item img {
+    width: 100%;
+    height: auto;
+  }
+  #header .header_text {
+    position: inherit;
+    top: 0;
+    bottom: 0;
+    transform: translateY(0%);
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #header .header_text span {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  #header .header_text .text {
+    font-size: 13px;
+    line-height: 2em;
+    background-color: transparent;
+    display: block;
+  }
+  #header .header_text .text .klein {
+    font-size: 15px;
+    line-height: 1.2em;
+  }
+  #content ul.liste_zweispaltig {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+    -webkit-column-rule-style: none;
+    -moz-column-rule-style: none;
+    column-rule-style: none;
+    -webkit-column-rule-width: 0px;
+    -moz-column-rule-width: 0px;
+    column-rule-width: 0px;
+    -webkit-column-rule-color: #cccccc;
+    -moz-column-rule-color: #cccccc;
+    column-rule-color: #cccccc;
+  }
+  #content ul.liste_zweispaltig h1,
+  #content ul.liste_zweispaltig h2,
+  #content ul.liste_zweispaltig h3 {
+    -webkit-column-span: all;
+    column-span: all;
+  }
+  #mitarbeiter .abteilung .item {
+    width: 83%;
+  }
+  .bl_2_3,
+  .bl_1_3 {
+    width: 90%;
+  }
+  #formular input[type="text"],
+  #formular input[type="url"],
+  #formular input[type="email"],
+  #formular input[type="password"],
+  #formular input[type="submit"],
+  #formular textarea,
+  #formular select.webselect {
+    width: calc(100% - 28px);
+    max-width: 100%;
+    padding: 10px 4px;
+  }
+  #formular input[type="text"]:hover,
+  #formular input[type="url"]:hover,
+  #formular input[type="email"]:hover,
+  #formular input[type="password"]:hover,
+  #formular input[type="submit"]:hover,
+  #formular textarea:hover,
+  #formular select.webselect:hover {
+    background-color: #dfdfdf;
+  }
+  #formular input[type="submit"] {
+    padding: 15px 0px;
+    width: calc(100% - 17px);
+  }
+  #formular .row .desc,
+  #formular .row .value {
+    float: none;
+    width: 100%;
+  }
+  #fam_aktuell .item {
+    width: 100%;
+  }
+  #formular.whg_bewerbung {
+    width: 90%;
+  }
+  #formular.whg_bewerbung .row {
+    display: block;
+  }
+  #formular.whg_bewerbung .row .e {
+    right: 4px;
+  }
+  #formular.whg_bewerbung .row .desc {
+    margin-bottom: 10px;
+  }
+  .inner.formtext {
+    width: 90%;
+  }
+}
+/* --- 480px --------------------------------------------- */
+/*@media only screen and (max-width: 479px) {*/
+/* --- 320px --------------------------------------------- */
